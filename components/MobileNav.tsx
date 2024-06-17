@@ -17,7 +17,7 @@ const MobileNav = ({ user }: MobileNavProps) => {
   const pathname = usePathname();
   return (
     <>
-      <section className="W-full max-w-[264px]">
+      <section className="w-full max-w-[264px]">
         <Sheet>
           <SheetTrigger>
             <Image
@@ -55,7 +55,7 @@ const MobileNav = ({ user }: MobileNavProps) => {
                         <Link
                           href={item.route}
                           key={item.label}
-                          className={cn("moblenav-sheet_close w-full", {
+                          className={cn("mobilenav-sheet_close w-full", {
                             "bg-bank-gradient": isActive,
                           })}
                         >
